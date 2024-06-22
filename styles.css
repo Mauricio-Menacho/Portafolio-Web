@@ -1212,7 +1212,7 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
   .header__content h1 {
     font-size: 1.7rem;
