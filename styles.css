@@ -1212,14 +1212,14 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
   .header__image {
     grid-column: unset;
     grid-area: 1/1/2/2;
     margin: 0px 0 0px 10px;
     text-align: center;
     width: 100px;
-    max-width: 500px;
+    max-width: 460px;
     height: 130%;
 
   }
