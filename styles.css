@@ -1285,6 +1285,10 @@ nav ul li a:hover {
     display: none;
   }
 
+  .testimonios-swiper .business__card {
+    max-height: 480px;
+  }
+
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
