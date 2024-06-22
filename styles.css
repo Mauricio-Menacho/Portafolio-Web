@@ -1216,7 +1216,7 @@ nav ul li a:hover {
 @media (max-width: 600px) {
 
   .header__content h1 {
-    font-size: 4rem;
+    font-size: 4.8rem;
   }
     
   .header__image img {
@@ -1255,7 +1255,7 @@ nav ul li a:hover {
   }
 
   .rainbow-text {
-    font-size: 4rem;
+    font-size: 4.2rem;
   }
 
   .about__container {
