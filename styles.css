@@ -345,7 +345,7 @@ nav ul li a:hover {
   height: 74%;
   object-fit: fill;
   margin-top: 60px;
-  width: 500px
+  width: 460px
 }
 
 .rainbow-text {
@@ -1212,14 +1212,14 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .header__image {
     grid-column: unset;
     grid-area: 1/1/2/2;
     margin: 0px 0 0px 10px;
     text-align: center;
     width: 100px;
-    max-width: 400px;
+    max-width: 500px;
     height: 130%;
 
   }
