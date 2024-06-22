@@ -346,7 +346,7 @@ nav ul li a:hover {
   height: 74%;
   object-fit: fill;
   margin-top: 60px;
-  width: 460px
+  width: 500px
 }
 
 .rainbow-text {
@@ -1213,13 +1213,7 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 700px) {
-
-  .header__content h1 {
-    font-size: 2.7rem;
-  }
-
-
+@media (max-width: 600px) {
   .header__image {
     grid-column: unset;
     grid-area: 1/1/2/2;
@@ -1232,7 +1226,7 @@ nav ul li a:hover {
   }
 
   .image-3d {
-    max-width: 100%;
+    max-width: 460%;
   }
 }
 
@@ -1249,7 +1243,7 @@ nav ul li a:hover {
   }
 
   .rainbow-text {
-    font-size: 4rem;
+    font-size: 5.9rem;
   }
 
   .about__container {
