@@ -42,3 +42,15 @@ h1 {
     width: 100%;
     height: 100%;
 }
+
+
+@media (width < 1200px) {
+
+    .typewriter {
+      font-size: 8vw;
+      box-sizing: border-box;
+    } 
+  
+  }
+
+  
