@@ -1212,7 +1212,7 @@ nav ul li a:hover {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .header__image {
     grid-column: unset;
     grid-area: 1/1/2/2;
