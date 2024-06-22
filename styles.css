@@ -274,7 +274,7 @@ nav ul li a:hover {
 
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 6.7rem;
+  font-size: 4.8rem;
   font-weight: 600;
   line-height: 7.2rem;
   color: var(--text-dark);
@@ -1214,6 +1214,14 @@ nav ul li a:hover {
 }
 
 @media (max-width: 600px) {
+
+  .header__image img {
+    height: 74%;
+    object-fit: fill;
+    margin-top: 60px;
+    width: 380px;
+  }
+
   .header__image {
     grid-column: unset;
     grid-area: 1/1/2/2;
@@ -1243,7 +1251,7 @@ nav ul li a:hover {
   }
 
   .rainbow-text {
-    font-size: 5.9rem;
+    font-size: 4rem;
   }
 
   .about__container {
@@ -1267,6 +1275,10 @@ nav ul li a:hover {
 
   .contact__content .form__group {
     gap: 1rem;
+  }
+
+  #imagenClickeable {
+    display: none;
   }
 
   .footer__container {
