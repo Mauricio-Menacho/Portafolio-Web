@@ -1315,7 +1315,11 @@ body.dark-mode {
 
 
 body.dark-mode nav {
-  background-color: #1a1a1a; /* Cambia el color de fondo del nav */
+  background-color: #1a1a1a; 
+}
+
+.dark-mode nav .checkbox i {
+  color: #bfbfbf; 
 }
 
 body nav a:hover {
@@ -1447,7 +1451,7 @@ body.dark-mode .service__card9 p {
 
 /* Estilos para los enlaces en modo oscuro dentro de .service__card */
 body.dark-mode .service__card a {
-  color: #00ff2a; /* Establece el color del enlace en blanco */
+  color: #00ff2a; 
 }
 
 body.dark-mode .service__card4 a {
@@ -1530,8 +1534,8 @@ body.dark-mode #Testimonios .swiper-slide {
 /* Estilos para los recuadros de texto en modo oscuro */
 body.dark-mode .contact__content input[type="text"],
 body.dark-mode .contact__content textarea {
-    background-color: #333333; /* Cambia el color de fondo de los recuadros de texto */
-    color: #d9d9d9; /* Cambia el color del texto dentro de los recuadros de texto */
+    background-color: #333333;
+    color: #d9d9d9; 
 }
 
 body.dark-mode .contact__content input[type="tel"],
