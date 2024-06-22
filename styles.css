@@ -1215,6 +1215,10 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
 
+  .header__content h1 {
+    font-size: 4rem;
+  }
+    
   .header__image img {
     height: 74%;
     object-fit: fill;
