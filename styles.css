@@ -1147,18 +1147,19 @@ nav ul li a:hover {
 
 .footer {
   background-color: var(--secondary-color);
+  text-align: center;
 }
 
 .footer__container {
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
   gap: 2rem;
+  font-size: larger;
 }
-
 
 .footer__col h4 {
   margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: var(--white);
 }
@@ -1166,7 +1167,6 @@ nav ul li a:hover {
 .footer__col p {
   margin-bottom: 1rem;
   color: var(--white);
-  margin-right: 115px;
 }
 
 .footer__col a {
@@ -1180,17 +1180,13 @@ nav ul li a:hover {
   margin-right: 5px;
 }
 
-.footer__col .icon2 {
-  margin: 0px 0px 0px 20px;
-}
-
 .footer__col a:hover {
   color: #00a11b;
 }
 
 .footer__socials {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -1202,7 +1198,7 @@ nav ul li a:hover {
 
 .footer__bar {
   padding: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--white);
   text-align: center;
 }
@@ -1265,15 +1261,32 @@ nav ul li a:hover {
   .contact__container {
     grid-template-columns: repeat(1, 1fr);
   }
+}
 
+
+/* Media Queries para responsive design */
+@media (max-width: 1024px) {
   .footer__container {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .footer__col:nth-child(4) {
-    grid-area: 2/1/3/2;
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__col {
+    text-align: center;
+  }
+
+  .footer__socials {
+    justify-content: center;
   }
 }
+
+
 
 @media (width < 600px) {
 
@@ -1288,17 +1301,12 @@ nav ul li a:hover {
   .testimonios-swiper .business__card {
     max-height: 480px;
   }
-
-  .footer__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 
 .testimonios-swiper .swiper-slide {
   max-width: 100%; 
 }
-
 
 
 
