@@ -473,21 +473,3 @@ navLinks.forEach(link => {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  const swiperWrapper = document.querySelector('.swiper-wrapper');
-  const slides = Array.from(swiperWrapper.querySelectorAll('.swiper-slide'));
-
-  const firstThreeSlides = slides.slice(0);
-  firstThreeSlides.forEach(slide => {
-    swiperWrapper.appendChild(slide); 
-  });
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    const swiper = new Swiper(".swiper", {
-      loop: true,
-      slidesPerView: "auto",
-      centeredSlides: true,
-      spaceBetween: 30,
-    });
-  });
-});
