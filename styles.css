@@ -1203,6 +1203,14 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.dark-mode .footer__col p {
+  color: #d1d1d1;
+}
+
+.dark-mode .footer__bar {
+  color: #d1d1d1;
+}
+
 @media (width < 1200px) {
   .nav__btns {
     display: none;
