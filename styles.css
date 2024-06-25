@@ -828,10 +828,18 @@ nav ul li a:hover {
 }
 
 .technology-icons {
-  list-style: none;
-  padding: 0;
   display: flex;
-  gap: 45px; 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Ajusta el máximo ancho según tus necesidades */
+  margin: 0 auto;
+}
+
+.technology-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 13px;
 }
 
 .project__nav {
