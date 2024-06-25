@@ -1300,6 +1300,10 @@ nav ul li a:hover {
   .footer__socials {
     justify-content: center;
   }
+
+  .technology-icons a {
+    display: none;
+  }
 }
 
 
