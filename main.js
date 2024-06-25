@@ -472,3 +472,14 @@ navLinks.forEach(link => {
   });
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  const swiperWrapper = document.querySelector('.swiper-wrapper');
+  const slides = Array.from(swiperWrapper.querySelectorAll('.swiper-slide'));
+
+  // Mover los tres primeros slides al principio del contenedor
+  const firstThreeSlides = slides.slice(0);
+  firstThreeSlides.forEach(slide => {
+    swiperWrapper.appendChild(slide); // Agrega al final del contenedor
+  });
+});
